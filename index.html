@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Todo App</title>
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="./css/base.css">
 </head>
 <body>
   <!-- 总容器开始 -->
   <div class="container">
+    <h1>我的Todo</h1>
     <div class="add-task">
-      <input type="text" name="" id="">
-      <button>submit</button>
+      <input type="text" name="" id="" placeholder="输入任务项">
+      <button type="submit">submit</button>
     </div>
     <!-- 清单列表开始 -->
     <div class="task-list">
@@ -36,25 +38,31 @@
             <span>detail</span>
           </div>
     </div><!-- 清单列表结束 -->
+
     <!-- 任务详情开始 -->
     <div class="task-detail">
       <!-- 任务标题开始 -->
       <div class="content">
-
+        sfsfsca
       </div><!-- 任务标题结束 -->
       
       <!-- 任务描述开始 -->
       <div>
-        <div class="desc"></div>
+        <div class="desc">
+          <textarea name="" id=""></textarea>
+        </div>
       </div><!-- 任务描述结束 -->
 
       <!-- 任务定时提醒开始 -->
       <div class="remind">
         <input type="date" name="" id="">
-        <button type="submit">submit</button>
+        <!-- <button type="submit">submit</button> -->
       </div><!-- 任务定时提醒结束 -->
     </div><!-- 任务详情结束 -->
+
   </div><!-- 总容器结束 -->
+  <!-- mask -->
+  <div class="task-detail-mask"></div>
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./js/base.js"></script>
 </body>
