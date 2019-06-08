@@ -18,6 +18,7 @@ body{
 .container{
   max-width: 700px;
   margin: 0 auto;
+  padding: 0 10px;
   position: relative;
 }
 h1{
@@ -25,6 +26,9 @@ h1{
 }
 .task-list{
   margin: 8px 0;
+}
+.fr{
+  float: right;
 }
 input,.task-item,button,textarea{
   padding:10px;
@@ -76,7 +80,7 @@ button:hover{
   
 }
 .task-item:hover{
-  background: #ddd;
+  background: #eee;
 }
 .task-detail,
 .task-detail-mask {
@@ -108,5 +112,17 @@ button:hover{
   right: 0;
   left: 0; 
   background: rgba(0,0,0,.4);
+}
+
+.task-content {
+  margin-left: 10px;
+}
+
+.action{
+  color: #888;
+  font-size: 90%;
+}
+.action:hover{
+  color: #333;
 }
 

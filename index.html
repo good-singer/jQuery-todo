@@ -13,30 +13,21 @@
   <div class="container">
     <h1>我的Todo</h1>
     <div class="add-task">
-      <input type="text" name="" id="" placeholder="输入任务项">
-      <button type="submit">submit</button>
+      <input type="text" name="content" autofocus autocomplete="off"
+        id="add-content" 
+        placeholder="e.g. 输入任务项">
+      <button type="submit" class="add-task-submit">submit</button>
     </div>
     <!-- 清单列表开始 -->
     <div class="task-list">
       <!-- 任务开始 -->
-      <div class="task-item">
+      <!-- <div class="task-item">
         <span><input type="checkbox" name="" id=""></span>
         <span class="task-content">content 1</span>
         <span>delete</span>
         <span>detail</span>
-      </div><!-- 任务结束 -->
-      <div class="task-item">
-          <span><input type="checkbox" name="" id=""></span>
-          <span class="task-content">content 1</span>
-          <span>delete</span>
-          <span>detail</span>
-        </div>
-        <div class="task-item">
-            <span><input type="checkbox" name="" id=""></span>
-            <span class="task-content">content 1</span>
-            <span>delete</span>
-            <span>detail</span>
-          </div>
+      </div> -->
+      <!-- 任务结束 -->
     </div><!-- 清单列表结束 -->
 
     <!-- 任务详情开始 -->
@@ -64,6 +55,7 @@
   <!-- mask -->
   <div class="task-detail-mask"></div>
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/storejs/dist/store.min.js"></script>
   <script src="./js/base.js"></script>
 </body>
 </html>
